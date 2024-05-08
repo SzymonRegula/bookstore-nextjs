@@ -1,0 +1,42 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.control {
+  text-align: left;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.control input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.errorMessage {
+  color: red;
+}
